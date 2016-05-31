@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_notes_edit">Edit your Notes</string>
+    <string name="title_activity_notes_view">View Your Notes</string>
+    <string name="content_authority">plan.notes.app.com.notetaking</string>
+    <string name="title_activity_notes">NotesActivity</string>
+    <string name="title_activity_note_base">NoteBaseActivity</string>
+    <string name="empty_listView">" 1.<b> Create a Note </b> Click on Floating button \n 2.
+        <b>Edit a Note </b> Click on note Item and click on Edit \n 3.<b> Delete a Note</b> Long Press on Item and then Delete"</string>
+    <string name="save_note">"To Save note Add both Heading and Details"</string>
+</resources>

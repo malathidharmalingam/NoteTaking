@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="plan.notes.app.com.notetaking.activity" >
+
+    <application
+        android:name="plan.notes.app.com.notetaking.application"
+        android:allowBackup="true"
+        android:icon="@drawable/notes_image"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".NotesListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NotesEditActivity"
+            android:label="@string/title_activity_notes_edit" >
+        </activity>
+
+        <provider
+            android:name="plan.notes.app.com.notetaking.db.NotesProvider"
+            android:authorities="@string/content_authority"
+            android:exported="false"
+            android:syncable="true" />
+
+        <activity
+            android:name=".NoteDetailActivity"
+            android:label="@string/title_activity_notes_view" >
+        </activity>
+        <activity
+            android:name=".NoteBaseActivity"
+            android:label="@string/title_activity_note_base" >
+        </activity>
+    </application>
+
+</manifest>
