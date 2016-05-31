@@ -35,7 +35,7 @@ public class TestProvider extends AndroidTestCase {
         db.close();
 
         // Test the basic content provider query
-        Cursor weatherCursor = mContext.getContentResolver().query(
+        Cursor notesCursor = mContext.getContentResolver().query(
                 NotesContract.NotesEntry.CONTENT_URI,
                 null,
                 null,
